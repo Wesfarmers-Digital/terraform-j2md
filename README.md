@@ -1,7 +1,7 @@
 # terraform-j2md
 
-![Go](https://github.com/reproio/terraform-j2md/workflows/Go/badge.svg)
-![goreleaser](https://github.com/reproio/terraform-j2md/workflows/goreleaser/badge.svg)
+![Go](https://github.com/Wesfarmers-Digital/terraform-j2md/workflows/Go/badge.svg)
+![goreleaser](https://github.com/Wesfarmers-Digital/terraform-j2md/workflows/goreleaser/badge.svg)
 
 Output human-readable markdown texts from Terraform plan JSON output.
 
@@ -14,15 +14,15 @@ Output texts may be useful as pull-request comments, and so on.
 ## Install
 
 ```
-% go install github.com/reproio/terraform-j2md/cmd/terraform-j2md@latest
+% go install github.com/Wesfarmers-Digital/terraform-j2md/cmd/terraform-j2md@latest
 ```
 
 ### GitHub Actions
 
 ```yaml
-- uses: reproio/terraform-j2md@master
+- uses: Wesfarmers-Digital/terraform-j2md@master
   with:
-    version: v0.0.7 # or latest
+    version: v0.0.9 # or latest
 ```
 
 ## Usage
